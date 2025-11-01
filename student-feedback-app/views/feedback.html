@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Feedback</h1>
+        <form id="feedbackForm">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <h2>Previous Feedback</h2>
+        <div id="feedbackList"></div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
